@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+:root{
+    --main-bg-color:brown;
+    --font1:'Syne Mono', monospace;
+    --font2:'Syne Tactile', cursive;
+}
+.max-width-1{
+
+    max-width: 80vw;
+}
+.max-width-2{
+
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 7px 7px;
+    border:2px solid black;
+    font-family: var(--font2);
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    background: green;
+    color: white;
+    transition: all 0.3s ease-in-out;
+
+}
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}
+.form-control{
+
+}
+.font1{
+    font-family: var(--font1);
+
+}
+.font2{
+    font-family: var(--font2);
+}
